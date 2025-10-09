@@ -44,6 +44,15 @@ int main() {
     delete(&myContacts, "Lana");
 
     allContacts(&myContacts);
+
+    // Free memory at the end
+    Contact* current = myContacts.head;
+    while (current != NULL) {
+        Contact* temp = current;
+        current = current->next;
+        free(temp);
+    }
+
     return 0;
 }
 ```
