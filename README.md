@@ -17,8 +17,8 @@ A mobile phone company wants a contact management system that allows users to ad
 
 - Implement the following functions:
   - `add()`: that adds a new contact to the end of the list and prints a confirmation message.  
-  - `delete()`: that deletes a contact by name. If the contact is found, it removes the contact and prints a confirmation message. If not found, it prints a message indicating that the contact does not exist.  
-  - `update()`: updates the phone number for the specified name and prints a confirmation message. If the name is not found, it displays a message indicating that the contact does not exist. 
+  - `delete()`: that deletes a contact by phone number. If the contact is found, it removes the contact and prints a confirmation message. If not found, it prints a message indicating that the contact does not exist.  
+  - `update()`: that updates the specified phone number and prints a confirmation message. If the old phone number is not found, it displays a message indicating that the contact does not exist. 
   - `allContacts()`: that displays all the contacts in the list. If the list is empty, it prints a message indicating that no contacts are available.
 
 - In your `main` function:
